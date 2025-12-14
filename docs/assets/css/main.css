@@ -100,6 +100,13 @@ body {
   font-style: italic;
 }
 
+.hero-vision {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
 /* Sections */
 .section {
   padding: 4rem 0;
@@ -124,15 +131,38 @@ body {
 
 /* Intro Section */
 .intro-content {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .lead {
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
+}
+
+.vision-statement {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.vision-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.vision-impact {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  text-align: center;
+  font-style: italic;
 }
 
 /* Model Section */
@@ -211,8 +241,22 @@ body {
 
 .model-description {
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 2rem auto 0;
+}
+
+.model-philosophy {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.model-integration {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 500;
 }
 
 /* Faculty Section */
@@ -345,6 +389,37 @@ body {
 .timeline-content h4 {
   color: var(--primary-color);
   margin-bottom: 0.5rem;
+}
+
+/* Vision Section */
+.vision-section {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.vision-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.vision-item {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--secondary-color);
+}
+
+.vision-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.vision-item p {
+  line-height: 1.8;
+  color: #555;
+  font-size: 1.05rem;
 }
 
 /* Features Section */
