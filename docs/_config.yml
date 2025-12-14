@@ -6,10 +6,9 @@ baseurl: "/veritas2026"
 
 # Build Settings
 markdown: kramdown
-theme: minima
+# theme: minima  # GitHub Pages에서 기본 지원하지 않을 수 있음
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # Author Information
 author:
